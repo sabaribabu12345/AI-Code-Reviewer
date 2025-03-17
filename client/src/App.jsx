@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5002";
+// const API_URL = "http://localhost:5002";
+const API_URL = "https://web-production-21cec.up.railway.app";  // Replace with your Railway backend URL
 
 function App() {
   const [code, setCode] = useState("");
